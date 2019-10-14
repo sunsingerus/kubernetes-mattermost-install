@@ -3,7 +3,7 @@ How to install mattermost on kubernetes
 
 Follow this [manual](https://docs.mattermost.com/install/install-kubernetes.html), with the following changes:
 1. Ingress is not mandatory, can completely skip it easily
-2. May required to label nodes with "kubernetes.io/os=linux"
+2. May require to label nodes with "kubernetes.io/os=linux"
 3. If `ingress` is not installed, use the following manifest to install mattermost:
 ```yaml
 apiVersion: mattermost.com/v1alpha1
